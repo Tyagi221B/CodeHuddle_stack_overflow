@@ -296,5 +296,8 @@
 
 
 .markdown :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  color: #80CBC4; /* Change to your preferred color (Teal in this case) */
+  color: #80CBC4;
+}
+._code_1tncs_52 {
+  background-color: #56807c !important; 
 }
