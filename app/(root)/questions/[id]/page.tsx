@@ -102,6 +102,8 @@ const QuestionDetails = async ({ params }: RouteParams) => {
         ))}
       </div>
 
+      <div className="border-t border-gray-700 mt-6 pt-6"></div>
+
       <section className="my-5">
         <AllAnswers
           data={answersResult?.answers}
@@ -110,6 +112,8 @@ const QuestionDetails = async ({ params }: RouteParams) => {
           totalAnswers={answersResult?.totalAnswers || 0}
         />
       </section>
+
+
 
       <section className="my-5">
       <AnswerForm
